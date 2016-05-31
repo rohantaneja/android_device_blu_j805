@@ -96,6 +96,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/init.project.rc:root/init.project.rc \
     $(LOCAL_PATH)/rootdir/root/init.ssd.rc:root/init.ssd.rc \
     $(LOCAL_PATH)/rootdir/root/init.modem.rc:root/init.modem.rc \
+    $(LOCAL_PATH)/rootdir/root/factory_init.project.rc:root/factory_init.project.rc \
+    $(LOCAL_PATH)/rootdir/root/factory_init.rc:root/factory_init.rc \
+    $(LOCAL_PATH)/rootdir/root/init.charging.rc:root/init.charging.rc \
+    $(LOCAL_PATH)/rootdir/root/meta_init.modem.rc:root/meta_init.modem.rc \
+    $(LOCAL_PATH)/rootdir/root/meta_init.project.rc:root/meta_init.project.rc \
+    $(LOCAL_PATH)/rootdir/root/meta_init.rc:root/meta_init.rc \
     $(LOCAL_PATH)/rootdir/root/ueventd.rc:root/ueventd.rc \
     $(LOCAL_PATH)/rootdir/root/init.mt6582.usb.rc:root/init.mt6582.usb.rc \
     $(LOCAL_PATH)/rootdir/root/init.trace.rc:root/init.trace.rc \
@@ -132,7 +138,8 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor \
-    
+
+# Wifi
 PRODUCT_PACKAGES += \
     libwpa_client \
     hostapd \
