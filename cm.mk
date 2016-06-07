@@ -13,7 +13,7 @@ TARGET_SCREEN_WIDTH := 720
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := cm_j805
-PRODUCT_DEVICE := XOLO Q2500
+PRODUCT_DEVICE := j805
 PRODUCT_BRAND := blu
 PRODUCT_MANUFACTURER := blu
 PRODUCT_MODEL := XOLO Q2500
